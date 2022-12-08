@@ -22,7 +22,7 @@ export const patchRequest = async ({ url, data }: Prop) => {
   return response?.data || response;
 };
 
-export const getRequest = async ({ url }: Prop) => {
+export const getRequest = async (url: any) => {
   const response = await customAxiosMethod.get(url);
   return response?.data || response;
 };

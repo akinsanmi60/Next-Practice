@@ -1,0 +1,19 @@
+.headwrapper {
+  position: "fixed";
+  top: 0px;
+  padding: 0 80px;
+  background-color: rgb(168, 35, 35);
+  height: 80px;
+  left: 0;
+  right: 0;
+}
+
+.text {
+  margin-top: 15px;
+}
+
+.active {
+  padding: 0 80px;
+  background-color: white;
+  box-shadow: "0 6px 13px rgba(38,78,118,0.1)";
+}

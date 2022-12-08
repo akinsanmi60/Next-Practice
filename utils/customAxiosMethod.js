@@ -1,5 +1,3 @@
-/* eslint-disable no-param-reassign */
-
 import axios from "axios";
 
 const customAxiosMethod = axios.create({});
